@@ -1,10 +1,4 @@
 function criarSenha() { // Cria a função responsável por gerar a senha
-
-}
-function limparSenha() { // Cria a função para limpar a senha
-
-}
-function criarSenha() { // Cria a função responsável por gerar a senha
     let senha = document.getElementById("senha"); // Pega a caixa onde a senha será exibida
     let quantidade = document.getElementById("quantidade").value; // Pega a quantidade de caracteres informada
     let minusculasMarcado = document.getElementById("minusculas").checked; // Verifica se minúsculas foi marcado
